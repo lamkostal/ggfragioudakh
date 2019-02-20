@@ -587,3 +587,7 @@ a {
 a:hover {
 	color: #016a69;
 }
+
+.day-emphasis{
+	font-weight: 600;
+}
