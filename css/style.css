@@ -426,6 +426,7 @@ img {
 	background-color: hsla(247, 10%, 33%, 0.6);
 	opacity: 1;
 
+
 	/*
     display: flex;
     justify-content: center;
@@ -450,7 +451,7 @@ h2{
 }
 
 .fcont li {
-	font-size: 1.35em;
+	font-size: 1.25em;
 	list-style: none;
 	padding: 0.2rem 0rem;
 	margin: 15px 5px;
@@ -458,10 +459,10 @@ h2{
 .orario li{
 	padding:0.1rem;
 	margin: 0.1rem;
-	font-size: 1.1rem;
+	font-size: 0.95rem;
 }.orario ul{
 	margin: 1.35rem 0;
-	    padding: 0.5rem ;
+	padding: 0.5rem ;
 }.orario h3{
 	font-weight: 50;
 }.orario{
@@ -491,8 +492,8 @@ ul {
 	}
 }
 
-li > a > .fa {
-	margin: 0px 15px 10px 0px;
+li > a > .fas {
+	/* margin: 0px 15px 10px 10px; */
 	font-size: 1.5em;
 }
 
@@ -523,11 +524,8 @@ li > a > .fa {
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
 	justify-content: center;
-
 	-webkit-box-align: center;
-
 	-ms-flex-align: center;
-
 	align-items: center;
 	color: grey;
 }
@@ -537,8 +535,6 @@ li > a > .fa {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-
-
 
 }
 
@@ -583,11 +579,16 @@ a {
 	color: #eaeaea;
 	text-decoration: none;
 }
+a:focus {
+  
+     text-decoration: none; }
 
 a:hover {
 	color: #016a69;
+	text-decoration: none;
 }
 
 .day-emphasis{
-	font-weight: 600;
+	font-weight: 100;
+	
 }
